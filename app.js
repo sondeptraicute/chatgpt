@@ -50,7 +50,7 @@ async function fetchChatGptResponse(messages) {
 sendBtn.addEventListener('click', async () => {
     const message = userInput.value.trim();
     if (message) {
-        appendMessage(message, 'user-message', 'AI Insight', 'img/user.jpg');
+        appendMessage(message, 'user-message', 'User AI', 'img/user.jpg');
         userInput.value = '';
 
         try {
